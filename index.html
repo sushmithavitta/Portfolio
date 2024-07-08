@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushmitha Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6870fecdf5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <!--<img src="images/logo1.jpg" class="logo"> -->
+            <h1 class="logo">SushmithaVitta</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hey!, I'm <span>Sushmitha</span><br>Software Developer</h1>
+        </div>
+    </div>
+</div>
+<!-- ------about------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About</h1>
+                <p>As a software developer, eager to leverage my technical skills in a dynamic environment and I'm confident in my ability to contribute my skills effectively to the projects.I am dedicated to continuous learning and growth.With my effective Interpersonal skills I can work as a collaborative team player.I have a commitment to work and upholding ethical standards.I approach each challenge with enthusiasm and a growth mindset. From concept to deployment, I'm committed to excellence and turning ideas into exceptional solutions.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>B.tech. in Information and Communication Technology</span><br>Sastra Deemed University,Thanjavur<br>2021-2025</li>
+                        <li><span>Higher Secondary</span><br>Abhyas Junior College,Proddatur<br>2019-2021</li>
+                        <li><span>Secondary</span><br>Gautam High School,Proddatur<br>2018-2019</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>c++</span></li>
+                        <li><span>Data Structures</span></li>
+                        <li><span>SQL</span></li>
+                        <li><span>Python</span></li>
+                        <li><span>HTML</span></li>
+                        <li><span>CSS</span></li>
+                        <li><span>Javascript</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Web Development Intern</span><br>At Internpe<br>June 2024-July 2024</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------services------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">Development skills</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Designing of web Interfaces</p>
+                <a href="https://www.geeksforgeeks.org/web-development/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Database Management</h2>
+                <p>Experience with SQL databases like MYSQL</p>
+                <a href="https://www.geeksforgeeks.org/introduction-of-dbms-database-management-system-set-1/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Programming Languages</h2>
+                <p>Proficiency in languages such as c++,Python,SQL,HTML,CSS,JavaScript</p>
+                <a href="https://www.simplilearn.com/best-programming-languages-start-learning-today-article">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!--- ----------portfolio------------ -->
+ <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list"> 
+            <div class="work">
+                <img src="images/project1.png">
+                <div class="layer">
+                    <h3>calculator App</h3>
+                    <p>Created a calculator using HTML and CSS to perform simple calculations
+                        which is user-friendly.
+                    </p>
+                    <a href="https://sushmithavitta.github.io/Calculator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project2.webp">
+                <div class="layer">
+                    <h3>To-Do List App</h3>
+                    <p>Created a To-Do list application using HTML,CSS and Javascript
+                    </p>
+                    <a href="https://sushmithavitta.github.io/To-Do-List/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+ </div>
+<!-------------contact----------  --->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sushmithavitta@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9392868052</p>
+                <div class="social-icons">
+                    <!--<a href="https://www.facebook.com/sushmitha.vitta?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a> -->
+                    <a href="https://github.com/sushmithavitta"><i class="fa-brands fa-square fa-github"></i></a>
+                    <a href="https://www.instagram.com/_sushmitha_vitta_?igsh=YXNoNnN5czZuenBr"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sushmithavitta/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Sushmitha Resume.pdf" target="_blank" class="btn btn2">View Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                   <input type="text" name="Name" placeholder="Your Name" required> 
+                   <input type="email" name="Email" placeholder="Your Email" required>
+                   <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                   <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© copyright Sushmitha 2024. All rights reserved <i class="fa-sharp fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu =  document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyuANXQwvaCivrjyVXAJnM6QjiPP5qBhFzZVtbz64VLCkqj9fuUzGLXrLowbfwc4r26GA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
